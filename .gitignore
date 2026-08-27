@@ -1,0 +1,53 @@
+# Byte-compiled files and Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+myenv/
+
+# Environment variables and local configuration
+.env
+.env.*
+!.env.example
+*.local
+
+# Jupyter and tool-generated local files
+.ipynb_checkpoints/
+.vscode/
+.idea/
+
+# Build, coverage, and packaging output
+build/
+dist/
+*.egg-info/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Local ML data and generated artifacts
+data/
+dataset/
+saved_models/
+reports/
+
+# Generated logs and temporary files
+*.log
+*.tmp
+*.temp
+tmp/
+temp/
