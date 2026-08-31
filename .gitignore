@@ -45,6 +45,9 @@ dataset/
 saved_models/
 reports/
 
+# Local SQLite databases
+database/*.db
+
 # Generated logs and temporary files
 *.log
 *.tmp
